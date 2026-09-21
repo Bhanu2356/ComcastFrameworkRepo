@@ -40,8 +40,12 @@ public class Productpage {
 	@FindBy(xpath = "//img[@alt='Create Product...']")
 	private WebElement createNewProduct;
 	
+	
 	public WebElement getCreateNewProduct() {
 		return createNewProduct;
 	}
+	
+	
+	
 }
 
