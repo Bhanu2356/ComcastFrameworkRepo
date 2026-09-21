@@ -8,10 +8,10 @@
 	<parameter name="browser" value="chrome" />
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.comcast.crm.orgtest.CreateOrganizationTest">
-			</class>
-			<class name="com.comcast.crm.contacttest.CreateContactWithOrgTest">
-			</class>
+			<class name="com.comcast.crm.orgtest.CreateOrganizationTest"/>
+			<class name="com.comcast.crm.contacttest.CreateContactWithOrgTest"/>
+			<class name="com.comcast.crm.contacttest.CreateContactTest"/>
+			<class name="com.comcast.crm.contacttest.CreateContactWithSupportDateTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

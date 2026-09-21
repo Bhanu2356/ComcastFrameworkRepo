@@ -78,7 +78,7 @@
 	</build>
      </profile>
      <profile>
-       <id>TestNg</id>
+       <id>TT</id>
        <build>
 		<plugins>
 			<!-- Below plug-in is used to execute tests -->
