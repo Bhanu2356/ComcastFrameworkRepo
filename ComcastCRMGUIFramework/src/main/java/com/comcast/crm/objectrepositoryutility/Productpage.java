@@ -30,6 +30,10 @@ public class Productpage {
 		return SearchDD;
 	}
 
+	public WebDriver getDriver() {
+		return driver;
+	}
+
 	public WebElement getSearchbtn() {
 		return searchbtn;
 	}
@@ -40,3 +44,4 @@ public class Productpage {
 		return createNewProduct;
 	}
 }
+
