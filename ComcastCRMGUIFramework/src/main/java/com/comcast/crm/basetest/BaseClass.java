@@ -71,9 +71,12 @@ public class BaseClass {
 	@BeforeMethod(groups = { "smokeTest", "RegressionTest" })
 	public void configBM() throws Throwable {
 		System.out.println("=login=");
-		String URL = flib.getDataFromPropertiesFile("url");
+		/*String URL = flib.getDataFromPropertiesFile("url");
 		String USERNAME = flib.getDataFromPropertiesFile("username");
-		String PASSWORD = flib.getDataFromPropertiesFile("password");
+		String PASSWORD = flib.getDataFromPropertiesFile("password"); */
+		String URL = System.getProperty("url");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
 		LoginPage lp = new LoginPage(driver);
 		lp.loginToapp(URL, USERNAME, PASSWORD);
 	}
