@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.comcast.crm.basetest.BaseClass;
 
 public class CreateContactWithSupportDateTest extends BaseClass {
-	@Test
+	@Test(groups = "RegressionTest")
 	public void createContactWithSupportDateTest() throws Throwable {
 		// read testScript data from excelFile
 		String lastName = elib.getDataFromExcel("contact", 4, 2) + jlib.getRandomNumber();

@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import com.comcast.crm.basetest.BaseClass;
 public class CreateContactWithOrgTest extends BaseClass {
-    @Test
+    @Test(groups = "RegressionTest")
 	public void createContactWithOrgTest() throws Throwable {
 	        // read testScript data from excelFile
 	        String orgName = elib.getDataFromExcel("org", 7, 2) + jlib.getRandomNumber();
