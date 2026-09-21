@@ -6,6 +6,8 @@
       <class name="com.comcast.crm.orgtest.CreateOrganizationTest">
         <methods>
              <include name="createOrgTest"/>
+             <include name="createOrgWithIndustryTest"/>
+             <include name="createOrgWithPhoneNumberTest"/>
         </methods>
       </class>
     </classes>
