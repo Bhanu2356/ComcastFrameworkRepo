@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.test.SearchContactTest">
+      <class name="practice.test.InvoiceTest">
         <methods>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
-          <include name="searchcontactTest"/>
+          <include name="createInvoiceTest"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
-      </class> <!-- practice.test.SearchContactTest -->
+      </class> <!-- practice.test.InvoiceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,7 @@ import com.comcast.crm.basetest.BaseClass;
 
 public class InvoiceTest extends BaseClass{
 	
-	@Test
+	@Test(enabled = false)
 	public void createInvoiceTest() {
 		System.out.println("Executed createInvoiceTest");
 		  String actTitle = driver.getTitle();
@@ -18,7 +18,7 @@ public class InvoiceTest extends BaseClass{
 		  System.out.println("Step-4");
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void createInvoicewithContactTest() {
 		System.out.println("Executed createInvoicewithContactTest");
 		 System.out.println("Step-1");

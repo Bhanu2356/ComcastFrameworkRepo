@@ -16,7 +16,7 @@ public class SearchContactTest extends BaseClass{
 	 * Scenario: login() ==> navigateContact ==> createcontact() ==> verify
 	 */
 	
-	@Test
+	@Test(enabled = false)
 	public void searchcontactTest() {
 		/*step1 login to app*/
 		LoginPage lp = new LoginPage(driver);

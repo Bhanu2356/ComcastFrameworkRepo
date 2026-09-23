@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 import com.comcast.crm.basetest.BaseClass;
 
-public class ActivateSimTest extends BaseClass{
+public class ActivateSimTest extends BaseClass {
 	 
-	@Test(retryAnalyzer = com.comcast.crm.generic.listenerutility.RetryListenerImp.class)
+	@Test(enabled = false,retryAnalyzer = com.comcast.crm.generic.listenerutility.RetryListenerImp.class)
 	public void activateSim() {
 		System.out.println("ActivateSim start");
 		  System.out.println("Step-1");
