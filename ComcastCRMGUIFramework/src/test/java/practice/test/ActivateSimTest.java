@@ -12,7 +12,7 @@ public class ActivateSimTest extends BaseClass{
 		System.out.println("ActivateSim start");
 		  System.out.println("Step-1");
 		  String actTitle = driver.getTitle();
-		  Assert.assertEquals(actTitle,"Login");
+		  Assert.assertEquals(actTitle,"Home");
 		  System.out.println("Step-2");
 		  System.out.println("Step-3");
 		  System.out.println("Step-4");
