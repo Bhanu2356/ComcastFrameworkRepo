@@ -7,6 +7,17 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactWithSupportDateTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createContactWithSupportDateTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.comcast.crm.contacttest.CreateContactWithSupportDateTest -->
       <class name="com.comcast.crm.orgtest.CreateOrganizationTest">
         <methods>
           <include name="configBC"/>
@@ -20,6 +31,17 @@
           <include name="createOrgWithIndustryTest"/>
         </methods>
       </class> <!-- com.comcast.crm.orgtest.CreateOrganizationTest -->
+      <class name="com.comcast.crm.contacttest.CreateContactWithOrgTest">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="createContactWithOrgTest"/>
+        </methods>
+      </class> <!-- com.comcast.crm.contacttest.CreateContactWithOrgTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
