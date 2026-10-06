@@ -72,9 +72,4 @@ public class LoginPage extends WebDriverUtility {
 		passwordEdt.sendKeys("admin");
 		loginBtn.click();
 	}
-	
-	
-	
-	
-
 }
